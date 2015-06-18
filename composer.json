@@ -30,7 +30,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Upcom\\SubPagesNavigation\\": "src/"
+      "ContaoBlackForest\\SubPagesNavigation\\": "src/"
     }
   },
   "extra": {
