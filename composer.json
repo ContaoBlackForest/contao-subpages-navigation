@@ -36,7 +36,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "module": "system/modules/subpages-navigation"
+        "contao": "system/modules/subpages-navigation"
       }
     },
     "branch-alias": {
