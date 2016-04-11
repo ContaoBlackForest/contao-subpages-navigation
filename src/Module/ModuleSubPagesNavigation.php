@@ -189,7 +189,7 @@ class ModuleSubPagesNavigation extends \Module
                     // DO NOT ADD A break; STATEMENT
 
                     default:
-                        if ($objSubpages->domain != '' && $objSubpages->domain != Environment::get('host'))
+                        if ($objSubpages->domain != '' && $objSubpages->domain != \Environment::get('host'))
                         {
                             $objSubpages->current()->loadDetails();
                         }
