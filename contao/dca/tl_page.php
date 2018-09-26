@@ -12,13 +12,14 @@
  * @filesource
  */
 
+
 foreach ($GLOBALS['TL_DCA']['tl_page']['palettes'] as $name => $palette) {
 
     if ($name == '__selector__') {
         continue;
     }
 
-    \MetaPalettes::appendAfter('tl_page', $name , 'title', array(
+    \Bit3\Contao\MetaPalettes\MetaPalettes::appendAfter('tl_page', $name , 'title', array(
             'nav_image' => array('navImage')
         )
     );
